@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "stock-analyzer": {
+      "command": "python",
+      "args": ["E:\\Projects\\stock-mcp-server\\stock_mcp_server.py"],
+      "env": {
+        "DATABASE_URL": "mysql://mfuser:Mf_pass_03%@65.20.72.91:3306/mutualfunddb"
+      }
+    }
+  }
+} 
